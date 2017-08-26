@@ -1,0 +1,42 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+
+
+.mid-edit{padding: 20px 10px; margin: 0; background-color: #f5f5f5; border-top: 1px solid #e5e5e5;}
+.panel-primary > .panel-heading{background-color: #205986;}
+.panel-primary, .panel-primary > .panel-heading, .md-checkbox label > .check{border-color: #205986;}
+.page-sidebar-menu > li i{background: url(images/icon.png)no-repeat; width: 22px; height: 22px;}
+.page-sidebar-menu > li i.icon-user-mgmt{background-position: -1px 0px;}
+.page-sidebar-menu > li i.icon-artical{background-position: -1px -25px;}
+.page-sidebar-menu > li.active i.icon-user-mgmt, .page-sidebar-menu > li:hover i.icon-user-mgmt{background-position: -31px 0px;}
+.page-sidebar-menu > li.active i.icon-artical, .page-sidebar-menu > li:hover i.icon-artical{background-position: -32px -25px;}
+.page-footer .page-footer-inner{font-weight: normal;}
+.panel-title{color: #fff; font-weight: 400;}
+.view-detail{display: block;}
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a, .page-sidebar .page-sidebar-menu > li.active > a{border-left: 3px solid #a70354 !important;}
+.login .content h3, .page-header.navbar .top-menu .navbar-nav > li.dropdown-user > .dropdown-toggle > .username, .login .content .form-actions .btn-default:hover, .modal-title{color: #205986;}
+
+.modal-dialog{width: 350px;}
+.modal-title{font-weight: bold;}
+.page-sidebar .page-sidebar-menu .sub-menu li > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu li > a{padding: 9px 14px 9px 47px; font-size: 13px;}
+.page-content.index{padding-top: 0;}
+.page-sidebar .page-sidebar-menu > li > a > .title, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li > a > .title{position: relative; top: -4px;}
+.page-header.navbar .page-logo .logo-default{margin: 13px 10px 0 10px;}
+.table.table-bordered tr > th:first-child:hover{text-decoration: underline; cursor: pointer;}
